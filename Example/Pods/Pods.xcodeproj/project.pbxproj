@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		102E6275B329EF39307EB27648954CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		1068BB1F06905DFB2CF9500E44E96E8A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1819D2FD3AF1480B25F4B02D4CBB649 /* ReplaceMe.swift */; };
+		2A2AFC9922C0C4AE00961CD2 /* ArunsLogy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AFC9822C0C4AD00961CD2 /* ArunsLogy.swift */; };
 		3ACE3BB56FFA560CBB3949EC48552E6F /* Pods-ArunsLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF34FA9F9EC3FA890773C1FFC95ED75 /* Pods-ArunsLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40AFF1A3E199CB6DA8E1A4F798CA3957 /* ArunsLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85197AB658DD5FFEA22AC3D87EA59AB6 /* ArunsLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A72D0ED3DC303BFDC8F69078192DB71 /* Pods-ArunsLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA61B841A66B94801D9002EF0C3178C /* Pods-ArunsLog_Tests-dummy.m */; };
@@ -43,6 +43,7 @@
 		1AC54101333C423397C9C4EC377E10BF /* ArunsLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ArunsLog.modulemap; sourceTree = "<group>"; };
 		26A3B889891202357E7E2BF9A9C872E6 /* Pods_ArunsLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArunsLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2905204D8040626A34F0B0D49A3E988A /* Pods-ArunsLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArunsLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2A2AFC9822C0C4AD00961CD2 /* ArunsLogy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArunsLogy.swift; path = ArunsLog/Classes/ArunsLogy.swift; sourceTree = "<group>"; };
 		3142DB4545119349812DE991468A72CA /* ArunsLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ArunsLog-dummy.m"; sourceTree = "<group>"; };
 		351DFAEB0060234D956A31A1E456B611 /* ArunsLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArunsLog-prefix.pch"; sourceTree = "<group>"; };
 		355D0C247F1A4FA094C6EE7AF9EA2BEE /* Pods-ArunsLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArunsLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DFFC953761FE862BB23090A3D6551DFD /* Pods-ArunsLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArunsLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E4E090C35BA42DF35E930CD3D4A369CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1819D2FD3AF1480B25F4B02D4CBB649 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ArunsLog/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F41EA2F9EF769DFABA0B6FAD25DD10BE /* Pods-ArunsLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunsLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,7 +140,7 @@
 		77A29FE152EF859460CA7F8775E5FE29 /* ArunsLog */ = {
 			isa = PBXGroup;
 			children = (
-				F1819D2FD3AF1480B25F4B02D4CBB649 /* ReplaceMe.swift */,
+				2A2AFC9822C0C4AD00961CD2 /* ArunsLogy.swift */,
 				E3CDAD333139B599236DB3DAD8063926 /* Pod */,
 				7C73E92E543CC2CFFA9C49491E9FFB79 /* Support Files */,
 			);
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E043FA476193D2FEEE4062276824362D /* ArunsLog-dummy.m in Sources */,
-				1068BB1F06905DFB2CF9500E44E96E8A /* ReplaceMe.swift in Sources */,
+				2A2AFC9922C0C4AE00961CD2 /* ArunsLogy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
