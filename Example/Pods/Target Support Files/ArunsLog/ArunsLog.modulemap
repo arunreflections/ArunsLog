@@ -1,0 +1,6 @@
+framework module ArunsLog {
+  umbrella header "ArunsLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ArunsLog (0.1.0)
+
+DEPENDENCIES:
+  - ArunsLog (from `../`)
+
+EXTERNAL SOURCES:
+  ArunsLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ArunsLog: a0644d7899d583f0225067e326d352068636deb8
+
+PODFILE CHECKSUM: 065a1d1962c712d51efcb4d2c58e4d7cea520d4c
+
+COCOAPODS: 1.5.0
