@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ArunsLog_Example' do
+  pod 'ArunsLog', :path => '../'
+
+  target 'ArunsLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
